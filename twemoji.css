@@ -1,0 +1,10 @@
+/*
+ * SPDX-FileCopyrightText: 2021 Tilman Vatteroth
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+@font-face {
+  font-family: "Twemoji Mozilla";
+  src: url("TwemojiMozilla.woff2") format("woff2");
+}
