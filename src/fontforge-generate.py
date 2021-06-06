@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+
 import fontforge
 
 
@@ -66,6 +67,7 @@ def create_font_character_glyph(character_name, code_point):
         glyph.addPosSub('liga', tuple(name))
     else:
         glyph = font.createChar(code_point, str(character_name))
+    glyph.correctDirection()
     return glyph
 
 
@@ -74,7 +76,6 @@ def process_svg_file(file_path, normalize, character_name):
     code_point = configuration['codepoints'][character_name]
     glyph = create_font_character_glyph(character_name, code_point)
     glyph.importOutlines(file_path)
-
     if normalize:
         glyph.left_side_bearing = glyph.right_side_bearing = 0
     else:
