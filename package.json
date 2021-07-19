@@ -1,9 +1,10 @@
 {
   "name": "twemoji-colr-font",
   "version": "0.0.3",
-  "description": "This package contains a Twemoji COLR font",
+  "description": "This package contains a web font version of Twemoji as COLR font",
   "main": "index.js",
   "repository": "https://github.com/mrdrogdrog/twemoji-color-font",
   "author": "Tilman Vatteroth <git@tilmanvatteroth.de>",
-  "license": "OFL-1.1"
+  "license": "OFL-1.1",
+  "keywords": ["twemoji", "webfont", "font", "colr", "cpal", "emoji"]
 }
