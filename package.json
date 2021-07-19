@@ -1,6 +1,6 @@
 {
   "name": "twemoji-colr-font",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package contains a web font version of Twemoji as COLR font",
   "main": "index.js",
   "repository": "https://github.com/mrdrogdrog/twemoji-color-font",
