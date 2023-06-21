@@ -6,5 +6,19 @@
   "repository": "https://github.com/mrdrogdrog/twemoji-color-font",
   "author": "Tilman Vatteroth <git@tilmanvatteroth.de>",
   "license": "OFL-1.1",
-  "keywords": ["twemoji", "webfont", "font", "colr", "cpal", "emoji"]
+  "keywords": [
+    "twemoji",
+    "webfont",
+    "font",
+    "colr",
+    "cpal",
+    "emoji"
+  ],
+  "files": [
+    "twemoji.woff2",
+    "twemoji.css",
+    "twemoji.scss",
+    "README",
+    "LICENSE"
+  ]
 }
