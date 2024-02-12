@@ -1,24 +1,10 @@
 {
   "name": "twemoji-colr-font",
-  "version": "14.1.3",
+  "version": "15.0.3",
   "description": "This package contains a web font version of Twemoji as COLR font",
   "main": "index.js",
   "repository": "https://github.com/mrdrogdrog/twemoji-color-font",
   "author": "Tilman Vatteroth <git@tilmanvatteroth.de>",
   "license": "OFL-1.1",
-  "keywords": [
-    "twemoji",
-    "webfont",
-    "font",
-    "colr",
-    "cpal",
-    "emoji"
-  ],
-  "files": [
-    "twemoji.woff2",
-    "twemoji.css",
-    "twemoji.scss",
-    "README",
-    "LICENSE"
-  ]
+  "keywords": ["twemoji", "webfont", "font", "colr", "cpal", "emoji"]
 }
